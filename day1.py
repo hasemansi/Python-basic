@@ -54,6 +54,7 @@ for x in range(2,22,2):
         break
     
 # continue statement with for loop
+#skip the current iteration of a loop and move to the next iteration — without stopping the entire loop.
 
 for x in range(1,6): #2 #3 #4 #5
     if x == 3:
