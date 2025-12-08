@@ -83,3 +83,42 @@ l1=[1,2,3,4,5,6]
 l2=[7,8,9,10]
 l1.extend(l2)
 print(l1)
+
+# copy
+a=[10,20,30,40]
+b=a  # using this it only copy the list but the memory address will remain same
+print(a)
+print(b)
+
+# change in one list can also affect the other 
+a[1]=70
+print(a)
+print(b)
+# op - [10, 70, 30, 40]
+# [10, 70, 30, 40]
+
+# so we use .copy()method
+c=a.copy() # this will change the memory address
+# change in one can not affect the other
+print(c)
+c[1]=20
+print(a) # [10, 70, 30, 40]
+print(c) # [10, 20, 30, 40]
+
+country = ["india","srilanka","china","cuba","india","US","Uk",'Mexico',"india"]
+country.insert(2,'pakistan')
+print(country)
+
+print(len(country)) # property
+
+#del country # delete country list
+
+# min and max
+
+a=[10,20,30,40]
+print(min(a))
+print(max(a))
+
+# in keyword  Op in True or False
+names=["sai",'alice','bob','john']
+print('john' in names)
