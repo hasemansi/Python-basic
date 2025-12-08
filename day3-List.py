@@ -122,3 +122,22 @@ print(max(a))
 # in keyword  Op in True or False
 names=["sai",'alice','bob','john']
 print('john' in names)
+
+# does list stores the values by index
+names=['ram','sham','alias','bob','john','rhiya','priya']
+print(names[1]) # yes
+
+# retrive all the elements of list using 
+# for loop 
+for n in range (len(names)):
+    print(names[n])
+
+# while loop
+i=0
+while(i<len(names)):
+    print(names[i])
+    i+=1
+
+# for each
+for x in names:
+    print(x)
