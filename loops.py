@@ -1,33 +1,3 @@
-# operators
-# arithematic operator + - /  % 
-a=5
-b=10
-print(a+b)
-print(a-b)
-print(a/b)
-print(a%b)
-
-a=17
-b=15
-print(a+b)
-print(a-b)
-print(a/b)
-print(a%b)
-
-# function in python 
-#A function in Python is a block of code that performs a specific task and can be reused whenever needed.
-#It is defined using the keyword def.
-
-def Calculator(a,b):
-    print(a+b)
-    print(a-b)
-    print(a/b)
-    print(a%b)
-
-Calculator(10,5)
-Calculator(17,14)
-Calculator(9,41)
-
 # loops in python
 # while loop
 #A while loop in Python is used to repeat a block of code as long as a given condition is true.
